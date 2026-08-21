@@ -1,0 +1,21 @@
+# Firebase CLI cache
+.firebase/
+
+# Node
+node_modules/
+
+# Environment / secrets
+.env
+.env.local
+
+# Android build outputs
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+
+# Android keystore (never commit)
+*.jks
+*.keystore
+service-account.json
+service-account.json

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background -->
+    <path
+        android:fillColor="#1a1a2e"
+        android:pathData="M0,0 L108,0 L108,108 L0,108 Z" />
+
+    <!-- Star (ZWDS symbol) -->
+    <path
+        android:fillColor="#c9a84c"
+        android:pathData="M54,20 L58.5,37.5 L76,37.5 L62.5,47.5 L67,65 L54,55 L41,65 L45.5,47.5 L32,37.5 L49.5,37.5 Z" />
+
+    <!-- Drop accent -->
+    <path
+        android:fillColor="#c9a84c"
+        android:pathData="M54,72 Q62,80 54,88 Q46,80 54,72 Z" />
+
+</vector>

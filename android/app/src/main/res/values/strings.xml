@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZWDS</string>
+    <string name="error_no_connection">No internet connection.\nPlease check your network.</string>
+    <string name="retry">Retry</string>
+</resources>
