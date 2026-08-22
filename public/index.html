@@ -337,6 +337,50 @@
     '破军':['Pòjūn','The Pioneer','Breaking down the old to build the new — change, courage and reinvention. Energetic and unconventional, clears ground for fresh starts; instability until energies are channelled.']
   };
 
+  /* auxiliary star descriptions */
+  var MINOR_STAR={
+    '\u5de6\u8f85':['Zu\u01d2f\u01d4','Left Assistant','Practical support and helpful allies. Strengthens whatever major star it accompanies. Favours cooperative work and backing from others.'],
+    '\u53f3\u5f3c':['Y\u00f2ub\u00ec','Right Assistant','Behind-the-scenes helpers and quiet support. Benefactors may not be obvious but are real. Enhances partnerships and discreet assistance.'],
+    '\u6587\u660c':['W\u00e9nch\u0101ng','Literary Star','Exams, academic writing and formal study. Sharpens analytical and written skills. Auspicious for certification and credentials.'],
+    '\u6587\u66f2':['W\u00e9nq\u01d4','Artistic Star','Eloquence, music, arts and expressive talent. Favours performance and creative fields. Also associated with romantic charisma.'],
+    '\u5929\u9b41':['Ti\u0101nku\u00ed','Heavenly Grace','Male benefactors and mentors who offer timely help. Marks a male authority figure who opens doors at critical moments.'],
+    '\u5929\u9486':['Ti\u0101ny\u00e8','Heavenly Sword','Female benefactors and female authorities. Paired with Heavenly Grace for complete benefactor support from both genders.'],
+    '\u64ce\u7f8a':['Q\u00edngy\u00e1ng','Ram Horn','Sharp, aggressive energy. Disputes, accidents and sudden physical events. In career: decisive force under pressure.'],
+    '\u9640\u7f57':['Tu\u00f3lu\u00f3','Grindstone','Slow drag and grinding resistance. Things take longer than expected. Persistence pays off but expect no quick wins.'],
+    '\u706b\u661f':['Hu\u01d2x\u012bng','Fire Star','Sudden, explosive events and rapid change. Can accelerate things dramatically. Hot-tempered energy; avoid impulsive decisions.'],
+    '\u9ee4\u661f':['L\u00edngx\u012bng','Bell Star','Jarring disruptions and sudden alerts. Things surface unexpectedly. Less explosive than Fire Star but equally disruptive to routines.'],
+    '\u5730\u7a7a':['D\u00edk\u014dng','Earth Void','Sudden loss and unexpected emptiness. Things promised may evaporate. Also signals philosophical depth and spiritual idealism.'],
+    '\u5730\u52ab':['D\u00ecji\u00e9','Earth Robbery','Losses and resources taken away unexpectedly. Money or opportunities can disappear. Signifies setbacks from nowhere.'],
+    '\u7984\u5b58':['L\u00f9c\u00fan','Stored Wealth','Conservative wealth and caution. Indicates careful savings. Also creates isolation from adjacent stars.'],
+    '\u5929\u9a6c':['Ti\u0101nm\u01ce','Heavenly Horse','Movement, change and dynamic action. Favours travel, career changes and relocation. With Stored Wealth: wealth through movement.'],
+    '\u7ea2\u9e3e':['H\u00f3ngluan','Red Luan','Romance, weddings and new relationship beginnings. A positive signal for love and joyful events.'],
+    '\u5929\u559c':['Ti\u0101nx\u01d0','Heavenly Joy','Celebrations and happy milestones. Often accompanies weddings, births and achievements.'],
+    '\u5929\u59da':['Ti\u0101ny\u00e1o','Heavenly Charm','Seductiveness and magnetic charisma. Heightens romantic appeal; requires awareness about indulgence.'],
+    '\u54f8\u6c60':['Xi\u00e1nch\u00ed','Salt Pool','Sensuality and earthly pleasures. Heightens attraction and desire; can indicate excess.'],
+    '\u5929\u54ed':['Ti\u0101nk\u016b','Heavenly Cry','Grief and emotional hardship. Indicates a period of sadness or processing loss.'],
+    '\u5929\u865a':['Ti\u0101nx\u016b','Heavenly Emptiness','Illusions and false hopes. Things appear more promising than they are. Caution against wishful thinking.'],
+    '\u5b64\u8fb0':['G\u016bch\u00e9n','Lone Star','Solitude and strong independence. An energy of working apart from others. Indicates a self-reliant nature.'],
+    '\u5be1\u5bbf':['Gu\u01cds\u00f9','Widowhood Star','Isolation and periods without partnership. Often activated during significant separations.'],
+    '\u5929\u7a7a':['Ti\u0101nk\u014dng','Heavenly Void','Philosophical depth and spiritual emptiness. Big ideas may not materialise; caution about pure idealism.'],
+    '\u622a\u7a7a':['Ji\u00e9k\u014dng','Severed Void','Blocked energy and plans cut short. Things that should work do not. Check this palace carefully for timing.'],
+    '\u65ec\u7a7a':['X\u00fank\u014dng','Cyclical Void','Periodic and temporary blocks. Unlike Severed Void, the block lifts. Patience and waiting for the right cycle pays off.'],
+    '\u5929\u5b98':['Ti\u0101ngu\u0101n','Heavenly Official','Government connections and official recognition. Favours dealings with institutions and formal structures.'],
+    '\u5929\u798f':['Ti\u0101nf\u00fa','Heavenly Blessing','Good fortune and grace. A generally auspicious star that softens difficulties and adds luck.'],
+    '\u5929\u624d':['Ti\u0101nc\u00e1i','Heavenly Talent','Natural gifts and innate ability. Exceptional skill that comes effortlessly in creative or intellectual domains.'],
+    '\u5929\u5bff':['Ti\u0101nsh\u00f2u','Heavenly Longevity','Longevity and endurance. A positive Health palace influence; associated with a long, stable life.'],
+    '\u9f99\u6c60':['L\u00f3ngch\u00ed','Dragon Pool','Competition wins and scholarly achievement. Amplifies academic success when near literary stars.'],
+    '\u51e4\u9601':['F\u00e8ngg\u00e9','Phoenix Tower','Elegance and artistic talent. Indicates a cultured nature with strong aesthetic sensibility.'],
+    '\u5929\u5211':['Ti\u0101nx\u00edng','Heavenly Punishment','Legal matters and conflict with authority. Can signal disputes or regulatory issues. Also indicates discipline and strict standards.'],
+    '\u7834\u788e':['P\u00f2su\u00ec','Shattered Star','Scattered energy and things that fall apart. Plans fragment; watch for unexpected disruptions.'],
+    '\u8574\u5ec9':['F\u0113ili\u00e1n','Flying Gossip','Rumours and slander behind the scenes. People may talk about you unknowingly. Keep a low profile when active.'],
+    '\u6708\u5fb7':['Yu\u00e8d\u00e9','Moon Virtue','Grace and emotional blessing. A gentle protective star that softens difficulties in the palace it occupies.'],
+    '\u5929\u5fb7':['Ti\u0101nd\u00e9','Heavenly Virtue','Blessings and good karma. Clears obstacles; seen in charts with strong spiritual protection.'],
+    '\u6069\u5149':['Ench\u0101ng','Grace Light','Favour from authority figures and acts of grace. A subtle benefactor influence.'],
+    '\u5929\u8d35':['Ti\u0101ngu\u00ec','Heavenly Noble','Noble status and dignified bearing. Indicates a naturally respected and distinguished character.'],
+    '\u4e09\u53f0':['S\u0101nt\u00e1i','Three Platforms','Status, dignity and scholarly achievement. One of the stars of official rank and recognition.'],
+    '\u516b\u5ea7':['B\u0101zu\u00f2','Eight Seats','Authority and the seat of power. Indicates a position of command or respected standing.']
+  };
+
   function brightnessEN(b){
     var m={'庙':'brilliant','旺':'flourishing','得':'capable','利':'favourable','平':'steady','不':'dimmed','陷':'fallen'};
     if(!b) return '';
@@ -807,6 +851,25 @@
     }else{
       var opp=oppositePalace(p);
       html+='<div class="nostar"><b style="color:var(--gold)">This palace is empty (空宫)</b> — no major star sits here. In ZWDS that’s not a weakness; you read it through the opposite palace, <b style="color:var(--gold);font-family:var(--cjk)">'+(opp?opp.name:'')+'</b>'+(opp&&opp.majorStars.length?' and its stars ('+opp.majorStars.map(function(s){return s.name;}).join('、')+')':'')+', whose influence shines across into this area. In short: this part of life takes its cue from what’s happening opposite.</div>';
+    }
+
+    // Auxiliary stars section
+    var auxStars=[];
+    p.minorStars.concat(p.adjectiveStars||[]).forEach(function(s){
+      var d=MINOR_STAR[s.name]||(ACAD[s.name]?[ACAD[s.name][0],ACAD[s.name][0],ACAD[s.name][1]]:null);
+      if(d) auxStars.push({name:s.name,pin:d[0],label:d[1],desc:d[2],mutagen:s.mutagen,brightness:s.brightness});
+    });
+    if(auxStars.length){
+      html+='<div class="block"><div class="sh" style="color:var(--topaz)">'+tx('Auxiliary Stars in this palace','\u6b64\u5bab\u8f85\u661f')+'<span class="en">\u8f85\u661f</span></div>';
+      auxStars.forEach(function(s){
+        var brightStr=s.brightness?(' <span style="color:var(--faint);font-size:10px">['+s.brightness.replace(/[\[\]]/g,'')+']</span>'):'';
+        var mutStr=s.mutagen?(' <span style="background:var(--'+(s.mutagen==='\u7984'?'jade':s.mutagen==='\u6743'?'amethyst':s.mutagen==='\u79d1'?'topaz':'crimson')+');color:#1a1430;border-radius:3px;padding:0 4px;font-size:10px">\u5316'+s.mutagen+'</span>'):'';
+        var isBad=['\u64ce\u7f8a','\u9640\u7f57','\u706b\u661f','\u9ee4\u661f','\u5730\u7a7a','\u5730\u52ab','\u5929\u54ed','\u5929\u5211','\u7834\u788e','\u8574\u5ec9','\u5b64\u8fb0','\u5be1\u5bbf','\u622a\u7a7a','\u65ec\u7a7a'].indexOf(s.name)>=0;
+        var isGood=['\u5de6\u8f85','\u53f3\u5f3c','\u6587\u660c','\u6587\u66f2','\u5929\u9b41','\u5929\u9486','\u7ea2\u9e3e','\u5929\u559c','\u5929\u5b98','\u5929\u798f','\u5929\u624d','\u5929\u5bff','\u9f99\u6c60','\u51e4\u9601','\u6708\u5fb7','\u5929\u5fb7','\u6069\u5149'].indexOf(s.name)>=0;
+        var col=isGood?'var(--jade)':isBad?'#ffb3b3':'var(--muted)';
+        html+='<p><b style="font-family:var(--cjk);color:#fff">'+s.name+'</b><span style="color:var(--faint);font-size:11px"> '+s.pin+'</span> \u00b7 <span style="color:'+col+';font-weight:600">'+s.label+'</span>'+brightStr+mutStr+'<br><span style="font-size:12px;color:var(--muted)">'+s.desc+'</span></p>';
+      });
+      html+='</div>';
     }
 
     if(S.hAtDate && S.mode!=='natal'){
@@ -1310,7 +1373,7 @@
     nat4.sort(function(a,b){return types.indexOf(a.type)-types.indexOf(b.type);});
     var rows=a.palaces.map(function(p){
       var ms=p.majorStars.map(function(st){return st.name+(st.brightness?'('+st.brightness.replace(/[\[\]]/g,'')+')':(st.mutagen?'化'+st.mutagen:''));}).join(' ');
-      var mn=p.minorStars.slice(0,4).map(function(st){return st.name;}).join(' ');
+      var mn=p.minorStars.concat(p.adjectiveStars||[]).map(function(st){return st.name+(st.mutagen?'\u5316'+st.mutagen:'');}).join(' ');
       var ib=p.isBodyPalace?'<span style="background:var(--purple);color:#fff;border-radius:3px;padding:0 3px;font-size:9px">身</span> ':'';
       return '<tr'+(p.name==='命宫'?' style="color:var(--gold)"':'')+'><td>'+ib+p.name+'</td><td>'+p.heavenlyStem+p.earthlyBranch+'</td><td>'+ms+'</td><td style="color:var(--faint);font-size:11px">'+mn+'</td><td>'+p.decadal.range[0]+'-'+p.decadal.range[1]+'</td></tr>';
     }).join('');
