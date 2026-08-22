@@ -1,1 +1,5 @@
-{ "projects": { "default": "79146265928" } }
+{
+  "projects": {
+    "default": "zwds-purplestar"
+  }
+}
